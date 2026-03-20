@@ -4,6 +4,7 @@ pyinstaller app/app.py ^
 --add-data "app/data.py;." ^
 --add-data "app/templates;templates" ^
 --add-data "app/static;static" ^
+--add-data "app/doc;doc" ^
 --onefile ^
 --optimize 2 ^
 --clean ^
